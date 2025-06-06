@@ -3,7 +3,7 @@ import react from '@vitejs/plugin-react'
 import { fileURLToPath, URL } from 'node:url'
 
 export default defineConfig({
-  base: '/docuasesor/', // o '' si estás sirviendo desde raíz
+  base: '/docuasesor/',
   plugins: [react()],
   resolve: {
     alias: {
